@@ -18,8 +18,10 @@ function tweetBoard() {
 	var board = '';
 
 	// TODO: Draw the board state... you need to keep the dashes for empty spots!
-	// Replace with X and O where appropriate otherwise.
-	board += 'Turn: X\n';
+	// Replace with X and O where appropriate otherwise.  Note that you need
+	// to update the game # and turn # or twitter whines (rightfully) about
+	// duplicate statuses.
+	board += 'Game 1 Turn 1: X\n';
 	board += '- | - | -\n';
 	board += '---------\n';
 	board += '- | - | -\n';
