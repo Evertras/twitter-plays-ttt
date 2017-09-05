@@ -1,0 +1,20 @@
+{
+  "name": "twitter-plays-ttt",
+  "version": "1.0.0",
+  "description": "Twitter Plays Tic Tac Toe",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evertras/twitter-plays-ttt.git"
+  },
+  "keywords": [],
+  "author": "Brandon Fulljames",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Evertras/twitter-plays-ttt/issues"
+  },
+  "homepage": "https://github.com/Evertras/twitter-plays-ttt#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  }
+}
