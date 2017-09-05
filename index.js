@@ -30,7 +30,7 @@ function tweetBoard() {
 
 	twitterClient.post('statuses/update', { status: board }, function(err, tweet, res) {
 		if (err) {
-			console.log('ERROR');
+			console.log('ERROR TWEETING BOARD!');
 			return console.log(err);
 		}
 	});
