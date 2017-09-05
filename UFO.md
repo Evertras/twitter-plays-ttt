@@ -2,6 +2,10 @@
 
 Let's see where the aliens are among us!
 
+https://www.kaggle.com/NUFORC/ufo-sightings (use scrubbed)
+
+https://www.npmjs.com/package/csv
+
 ## Learning Focus
 
 Data.
@@ -14,8 +18,8 @@ all of it and find useful bits.
 1. What year had the most sightings?
 1. What season of the year tends to have the most sightings?  By how much?
 1. Which shapes are most commonly seen?
-1. Which state has the most sightings per-capita?  Take population into account.
-1. What's the median duration a UFO is seen?  Standard deviation?
+1. Which state has the most/least sightings per-capita?  Take population into account.
+1. What's the median duration a UFO is seen?  What's the standard deviation?
 
 ## Before You Start
 
