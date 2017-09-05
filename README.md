@@ -1,23 +1,35 @@
 # Twitter Plays Tic Tac Toe
 
-Using a bot Twitter account we make, we're going to make a program that
-plays Tic Tac Toe using Twitter as its user interface.  Why?  Because we can.
+Using a bot Twitter account, we're going to make a program that plays
+Tic Tac Toe using Twitter as its user interface.  Why?  Because we can.
 
 ## Learning Focus
 
-Architecture.  Your code should be concise and easy to follow.  Once you get it
+Architecture.
+
+Your code should be concise and easy to follow.  Once you get it
 working, work as a team to figure out how to make it tighter.  Iterate.  Iterate
 again.  Then iterate some more.  Discuss trade-offs, plans for potential growth,
 and how your architecture can adapt.  Remember: *As simple as possible, but
 no simpler.*
 
+Questions to ask yourselves:
+
+1. If someone new to the team came on, could they follow this code?
+1. What changes are we anticipating needing to make for growth?
+1. How DRY is this?
+1. Are we leaving anything blobbed together that we could break up?  Should we?
+1. Does everything follow the SRP (Single Responsibility Principle) as closely as practical?
+1. Are we adding complexity for the sake of complexity?
+
 Note that the original 'architecture' of throwing this into a single index.js
 file is terrible.  It's just a bit of sample code to get you started, NOT
 a long term plan.
 
-**BEFORE YOU START:** Plan!  Draw out where things should go.  Be prepared to
-adapt that plan as you move forward, but make sure you have a plan and that
-everyone is on the same page.
+## Before you start
+
+Plan!  Draw out where things should go.  Be prepared to adapt that plan as you
+move forward, but make sure you have a plan and that everyone is on the same page.
 
 ## Credentials/Account
 
@@ -36,7 +48,8 @@ and tweet with the bot while the code is running in order to receive commands.
 Basically...
 
 1. `node index.js` and leave it running on someone's machine
-1. Open Twitter, log in as bot
+1. Open Twitter in a browser
+1. Log in as the bot
 1. Tweet something starting with ! as the bot: `!test`
 1. See the tweet be registered in the running program and output to the console
 1. Figure out how to make this play Tic Tac Toe!
